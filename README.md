@@ -20,3 +20,61 @@ Examples:  ALL our previous examples comes  under  Non-Persistant Applications.
 			2) By Using  RDBMS DataBase Softwares ( Oracle, MySQL, 
 			    MongoDB, DB2,PostgreySQL,SQL Server,SQLITE3..etc)
 ========================================x======================================================
+
+
+
+
+============================================
+			Data Persistenecy by Using Files of Python 
+============================================
+-----------------------------------------------------
+Def. of File:
+-----------------------------------------------------
+=>A File is a collection of Records.
+=>Files Resides in Secondary Memory(HDD).
+=>Technically, A File Name is considered as  a named Location in Secondary Memory.
+=>The purpose of Files is that "To get Data Persistency".
+
+-----------------------------------------------------
+=>All the objects data of main memory becomes records in File of Secondary memory and records of file of secondary memory becomes the objects in main memory.
+
+----------------------------------------------------
+Def. of Stream:
+----------------------------------------------------
+=>The Flow of Data between object(s) of Main Memory and Files of Seconday memory is called   Stream.
+-----------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+===============================================
+			Types of Files in Python
+===============================================
+=>In any Programming lang, we have Two Types of Files. They are
+
+		1. Text Files
+		2. Binary Files
+----------------------------------------------------------------------------------------------------------------------------------------------------
+ Text File
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+=>A Text File is One, which always contains alphabets, Digits and Special Symbols.
+=>Text Files are denoted by a letter  "t". (by deafult)
+=>By deafult Python Programming Lang Treats every file as Text File.
+Examples:      .py    .java    .cpp     .c
+			.txt   .xlsx, .doc...etc
+   
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Binary File
+------------------------------------------------------------------------------------------------------------------------------------------------------
+=>A Binary File is One, which contains the data in the form of Binary Format (Pixels).
+=>Binary Files are denoted by a letter  "b".
+
+----------------------
+=>Examples
+
+----------------------
+		=> Images (.png, .jpeg, .jpg, .gif....etc)
+		=> Audio and Video Files (.mvi, .avi,mp3,mp4...etc)
+		=> PDF File with Images
+===================================================================
